@@ -1,0 +1,22 @@
+{
+    "name": "dungwinux.github.io",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "watch": "npx tailwindcss -i src/input.css -o public/output.css --watch",
+        "build": "npx tailwindcss -i src/input.css -o public/output.css --minify"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/dungwinux/dungwinux.github.io.git"
+    },
+    "author": "Dung Tuan Nguyen <ntddebugger@gmail.com> (https://dungwinux.github.io)",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/dungwinux/dungwinux.github.io/issues"
+    },
+    "homepage": "https://github.com/dungwinux/dungwinux.github.io#readme",
+    "devDependencies": {
+        "tailwindcss": "^3.0.23"
+    }
+}
